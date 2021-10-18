@@ -22,7 +22,7 @@ class Dexarm:
                 else:
                     print("read：", str)
 
-    def go_home(self):
+    def go_home(self): # возврат в начальное положение
         self._send_cmd("M1112\r")
 
     def set_workorigin(self):
@@ -52,15 +52,15 @@ class Dexarm:
                 if str.find("ok") > -1:
                     return module_kind
 
-    def move_to(self, x, y, z, feedrate=2000):
+    def move_to(self, x, y, z, feedrate=2000): # перемещение в заданную позицию
         cmd = "G1"+"F" + str(feedrate) + "X"+str(x) + "Y" + str(y) + "Z" + str(z) + "\r\n"
         self._send_cmd(cmd)
 
-    def fast_move_to(self, x, y, z, feedrate=2000):
+    def fast_move_to(self, x, y, z, feedrate=2000): # быстрое перемещение в заданную позицию
         cmd = "G0"+"F" + str(feedrate) + "X"+str(x) + "Y" + str(y) + "Z" + str(z) + "\r\n"
         self._send_cmd(cmd)
 
-    def get_current_position(self):
+    def get_current_position(self): # узнать текущую позицию
         self.ser.write('M114\r'.encode())
         while True:
             str = self.ser.readline().decode("utf-8")
@@ -82,10 +82,10 @@ class Dexarm:
                     return x,y,z,e,a,b,c
 
     """Delay"""
-    def dealy_ms(self, value):
+    def dealy_ms(self, value): # задержка в милисекундах
         self._send_cmd("G4 P" + str(value) + '\r')
 
-    def dealy_s(self, value):
+    def dealy_s(self, value): # задержка в секундах
         self._send_cmd("G4 S" + str(value) + '\r')
 
     """SoftGripper & AirPicker"""
@@ -114,16 +114,16 @@ class Dexarm:
         self._send_cmd("M1003\r")
 
     """Laser"""
-    def laser_on(self, value=0):
+    def laser_on(self, value=0): # включение лазера
         self._send_cmd("M3 S" + str(value) + '\r')
 
-    def laser_off(self):
+    def laser_off(self): # выключение лазера
         self._send_cmd("M5\r")
 
     """Conveyor Belt"""
-    def conveyor_belt_forward(self, speed=0):
+    def conveyor_belt_forward(self, speed=0): # запустить конвейер вперед
         self._send_cmd("M2012 S" + str(speed) + 'D0\r')
-    def conveyor_belt_backward(self, speed=0):
+    def conveyor_belt_backward(self, speed=0): # запустить конвейер назад
         self._send_cmd("M2012 S" + str(speed) + 'D1\r')
-    def conveyor_belt_stop(self, speed=0):
+    def conveyor_belt_stop(self, speed=0): # остановить конвейер
         self._send_cmd("M2013\r")
