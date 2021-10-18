@@ -1,2 +1,24 @@
 # dex-arm-book
-My book about work and study with Rotrics Dex ARM
+WARNING: All book updates come out first in Russian!
+EN-en: 
+FR-fr:
+
+
+
+1. Введение
+
+
+
+
+
+
+2. Установка
+
+
+
+
+
+3. "Hello world"
+
+
+
