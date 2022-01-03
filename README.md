@@ -1,5 +1,4 @@
 ![dex-arm-book](https://github.com/AndreM07/dex-arm/blob/main/pic/hexbot-2.png)
-# dex-arm-book 🤖
 ## In English:
 
 This book expands the horizons of the robot, and uses in its arsenal such a powerful, flexible and easy-to-use programming language - Python. Using this programming language, you can automate a robot and come up with a variety of creative scenarios.
