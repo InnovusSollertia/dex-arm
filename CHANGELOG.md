@@ -1,9 +1,10 @@
 # CHANGEL OF UPDATES:
-1. ⚪ Pre-Alpha - PA
-2. 🔴 Alpha - AL
-3. 🟡 Beta - BT
-4. 🟢 Release Candidate - RC
-5. 🔵 Release-to-Manufactures - RTM 
+Stage of develop:
+1. ⚪ Pre-Alpha
+2. 🔴 Alpha
+3. 🟡 Beta
+4. 🟢 Release Candidate
+5. 🔵 Release-to-Manufactures
 
 
 ## Version 2.1.0 🔴
