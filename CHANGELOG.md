@@ -1,4 +1,4 @@
-# CHANGELOF UPDATES:
+# CHANGEL OF UPDATES:
 
 ## Version 2.1.0:
   1. New structure of book;
