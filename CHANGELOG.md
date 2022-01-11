@@ -8,20 +8,44 @@ Stage of develop:
 
 
 ## Version 2.1.0 🔴
-  1. New structure of book;
-  2. New design and colors;
-  3. New chapter;
-  4. Compilation metadata 🕰: 20220103-2201;
++ In English:
+  - Completely revised structure of the book;
+  - Updated color schemes and patterns;
+  - Added a chapter on C ++ development;
+  - Compilation metadata 🕰: 20220103-2201;
+
++ In Russian:
+  - Полностью переработанная структура книги;
+  - Обновлены цветографические схемы и паттерны;
+  - Добавлена глава о разработке на C++;
+  - Метаданные компиляции 🕰: 20220103-2201;
 
 ## Version 2.0.1 ⚪
-  1. Rebuild the structure of book;
-  2. Added service information for user;
-  3. Added chapter about vectors with mathematic problem;
-  4. Compilation metadata 🕰: 20211117-2124;
++ In English:
+  - Updated structure of the book;
+  - Added service information;
+  - Added a chapter on vectors with a math problem;
+  - Compilation metadata 🕰: 20211117-2124;
+
++ In Russian:
+  - Обновленная структура книги;
+  - Добавлена служебная информация;
+  - Добавлена глава о векторах с математической задачей;
+  - Метаданные компиляции 🕰: 20211117-2124;
 
 ## Version 1.2 🔵 
-  1. Complete the book about Rotrisc Dex ARM programming;
++ In English:
+  - The development of the first version of the book is completed;
+
++ In Russian:
+  - Завершена разработка первой версии книги;
 
 ## Version 0.5 🟢
-  1. Add other chapters;
-  2. Add the discription about interfaces;
++ In English:
+  - Added new chapters;
+  - Added interface description;
+
++ In Russian:
+  - Добавлены новые главы;
+  - Добавлено описание интерфейсов;
+
