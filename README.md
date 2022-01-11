@@ -12,6 +12,6 @@ This book introduces the reader to the Rotrics Dex Arm robot, which helps to lea
 
 Данная книга знакомит читателя с роботом Rotrics Dex Arm, который помогает обучаться в различных дисциплинах и компетенциях – программирование, робототехника, мехатроника, 3D-печать, электроника и производственная автоматика
 
-Demo-project / Демо-проекты:
+## Practical use / Практическое использование:
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
