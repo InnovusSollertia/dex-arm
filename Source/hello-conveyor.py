@@ -1,6 +1,6 @@
 from pydexarm import Dexarm
 import time
-dexarm = Dexarm("COM8") # Подключение к Windows
+dexarm = Dexarm("COM10") # Подключение к Windows
 
 # speed conveyor - 100 to 5000
 
