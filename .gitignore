@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+src/demo-conveyor-1/
+src/demo-conveyor-2/
+src/demo-conveyor-3/
