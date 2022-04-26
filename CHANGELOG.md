@@ -7,18 +7,27 @@ Stage of develop:
 5. 🔵 Release-to-Manufactures
 
 
+## Version 2.1.6 🔴
++ In English:
+  - Completely revised structure of the book;
+  - Updated color schemes and patterns;
+  - Standard Font - Segoe UI;
+
++ In Russian:
+  - Полностью переработанная структура книги;
+  - Обновлены цветографические схемы и паттерны;
+  - Стандартный шрифт - Segoe UI;
+
 ## Version 2.1.0 🔴
 + In English:
   - Completely revised structure of the book;
   - Updated color schemes and patterns;
   - Added a chapter on C ++ development;
-  - Compilation metadata 🕰: 20220103-2201;
 
 + In Russian:
   - Полностью переработанная структура книги;
   - Обновлены цветографические схемы и паттерны;
   - Добавлена глава о разработке на C++;
-  - Метаданные компиляции 🕰: 20220103-2201;
 
 ## Version 2.0.1 ⚪
 + In English:
@@ -48,4 +57,3 @@ Stage of develop:
 + In Russian:
   - Добавлены новые главы;
   - Добавлено описание интерфейсов;
-
