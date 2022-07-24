@@ -41,7 +41,6 @@ time.sleep(5) # time in sec
 dexarm.conveyor_belt_stop() # stop the conveyor
 
 
-
 dexarm.go_home()
 
 '''DexArm sliding rail Demo'''
@@ -55,11 +54,6 @@ dexarm.conveyor_belt_stop()
 
 '''DexArm sliding rail Demo'''
 '''
-dexarm.go_home()
-dexarm.sliding_rail_init()
-dexarm.move_to(None,None,None,0)
-dexarm.move_to(None,None,None,100)
-dexarm.move_to(None,None,None,50)
-dexarm.move_to(None,None,None,200)
+
 '''
 dexarm.close()

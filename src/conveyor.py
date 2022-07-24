@@ -6,9 +6,9 @@ dexarm = Dexarm("COM6") # Подключение к Windows
 
 dexarm.conveyor_belt_forward(5000) # конвейер вперед
 dexarm.conveyor_belt_backward(5000) # конвейер назад
-dexarm.conveyor_belt_forward(5000) # скорость в мм/секунду 
+dexarm.conveyor_belt_forward(5000) # скорость в мм/секунду
 time.sleep(5) # время в секундах
-dexarm.conveyor_belt_backward(5000) # скорость в мм/секунду 
+dexarm.conveyor_belt_backward(5000) # скорость в мм/секунду
 time.sleep(5) # время в секундах
 dexarm.conveyor_belt_stop() # остановить конвейер
 
