@@ -1,3 +1,5 @@
+### ⚠ This project is done. Next evolution of book here - https://github.com/IC-DOSTI/BookRotics ⚠
+
 ![dex-arm-book](https://github.com/0x600/dex-arm/blob/main/pic/set.png)
 ## 🇬🇧 In English:
 
